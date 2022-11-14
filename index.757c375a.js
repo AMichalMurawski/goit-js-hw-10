@@ -1,0 +1,2 @@
+(function(o){return fetch("https://restcountries.com/v3.1/name/".concat(o,"?fields=name,capital,population,flags,languages")).then((function(o){if(!o.ok)throw new Error(o.status);return o.json()}))})("pola").then((function(o){console.log(o.length),console.log(o[0].name),console.log(o[0].capital[0]),console.log(o[0].population),console.log(o[0].flags.svg),console.log(o[0].languages)})).catch((function(o){return console.log(o)}));
+//# sourceMappingURL=index.757c375a.js.map
