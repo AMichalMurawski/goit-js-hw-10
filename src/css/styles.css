@@ -28,6 +28,9 @@ p {
 
 .country-list {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .country-item {
@@ -47,10 +50,19 @@ p {
   padding: 5px 0 5px 0;
 }
 
+.country-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 .country-info h3 {
   display: flex;
   flex-direction: row;
+  font-size: 2em;
   gap: 10px;
+  align-items: center;
+  margin: 20px 0;
 }
 
 .country-info img {
